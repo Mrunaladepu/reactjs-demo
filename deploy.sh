@@ -3,7 +3,7 @@
 # Stop script on first error
 set -e
 
-IMAGE_NAME="mrunaladepu/1reactappproject"
+IMAGE_NAME="mrunaladepu/dev"
 IMAGE_TAG=$(git rev-parse --short HEAD) # first 7 characters of the current commit hash
 
 echo "Building Docker image ${IMAGE_NAME}:${IMAGE_TAG}, and tagging as latest"
