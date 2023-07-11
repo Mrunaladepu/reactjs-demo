@@ -14,4 +14,4 @@ DOCKER_PASSWORD="1Munna1101$"
 echo "Authenticating and pushing image to Docker Hub"
 echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
 docker push "${IMAGE_NAME}:${IMAGE_TAG}"
-docker push "${IMAGE_NAME}:latest"
+#dockerpush"${IMAGE_NAME}:lat
